@@ -1,0 +1,187 @@
+/* This code is the property of the Ntrx Group
+     please leave this page now! */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height:100%;
+	width: 100%;
+}
+
+
+body {
+	font-family: Century Gothic, Tahoma ;
+	font-size: 11px;
+	color: #72addf;
+	text-shadow: #ffffff 0px 0px 2px;
+	height: 100%;
+	width: 100%;
+background-size: cover;
+	  background-image: url('01.jpg');
+
+
+}
+
+table {
+	font-size: inherit;
+		height: 100%;
+	width: 100%;
+}
+
+a {
+	color: rgba(238, 201, 0, .5);
+	text-decoration: none;
+		height: 100%;
+	width: 100%;
+}
+
+a:hover {
+color: yellow;
+font-size: 15pt;
+text-shadow: yellow 5px 5px 5px;
+
+
+}
+
+input[type="text"], input[type="password"] {
+	padding:1px 3px 0px 3px;
+	font-family: "tahoma", "Century Gothic";
+	font-size: 8pt;
+	color: #000000;
+	width:200px;
+}
+
+input[type="text"]:valid, input[type="password"]:valid {
+	border-style: none;
+}
+
+input[type="text"]:invalid, input[type="password"]:invalid {
+	border-top-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: solid 2px;
+	border-color: red;
+}
+
+#head {
+	
+	height: 1%;
+	min-height: 20px;
+	width: 100%;
+	
+   background-color:  rgba(0, 0, 0,.4); !important;
+      border-color: transparent !important;
+text-shadow: yellow 0px 0px 2px;
+
+	overflow: hidden;
+ #box-shadow: -00px 0px 30px 2px rgba(255, 131, 0, .5);
+
+}
+
+#download-commfort {
+ box-shadow: -00px 0px 30px 5px rgba(0, 102, 254, .5);
+    border-color: red !important;
+	text-shadow: #ffffff 0px 0px 2px;
+  background-color: transparent;
+
+}
+#download-commfort2{
+ box-shadow: -00px 0px 30px 5px rgba(0, 102, 254, .5);
+    border-color: red !important;
+	text-shadow: #ffffff 0px 0px 2px;
+  background-color: transparent;
+  background-image: url('img/2cqms5w2.jpg');
+
+}
+#foot {
+	text-align: center;
+		height: 6%;
+	min-height: 20px;
+	width: 100%;
+   border-color: red !important;
+      border-color: transparent !important;
+
+	overflow: hidden;
+	background-color: rgba(0, 0, 0,.4) !important;-moz-border-radius: 6px !important;top:20px;color:#77addf !important;
+text-shadow: #ffffff 0px 0px 2px;
+ box-shadow: -00px 0px 30px 5px rgba(255, 131, 0, .5);
+
+}
+
+/* This table gives Glass Effect to indexes, remember it */
+#calc {
+  width: 50;
+   padding: 0;
+   border: 1px solid rgba(0,0,0,0.5);
+   border-radius: 10px 10px 2px 2px;
+   background: rgba(0,0,0,0.25);
+   box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+
+}
+
+#foot > span,#head > span {
+	top: 35%;
+	position: relative;
+	padding: 20px;
+}
+
+
+#foot > span {
+	color: #393939;
+}
+
+#maincontent {
+	width:100%;
+	height:88%;
+}
+
+#logo {
+	height: 99px;
+	width: 1000px;
+	background-image: url('logo2.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding: 50px 0px 0px 0px;
+	text-align: center;
+}
+
+	
+}
+#logo ul {
+		float: left;
+		left: 50%;
+		margin: 0 auto;
+		position: relative;
+}
+
+#logo ul li {
+		float: left;
+		position: relative;
+		right: 50%;
+	margin: 0 1em 0 0;
+	list-style: none;
+}
+
+.poetry {
+	width: 320px; 
+	text-align: justify;
+}
+
+.hidden {
+	display: none;
+}
+
+.info {
+	color: green;
+	font-weight: bold;
+}
+
+.warning {
+	color: red;
+	font-weight: bold;
+}

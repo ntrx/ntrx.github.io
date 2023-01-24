@@ -1,0 +1,13 @@
+.QOverlay {
+	background-color: black;
+	z-index: 9999;
+}
+
+.QLoader {
+
+	background-color: white;
+  background-image: url('../1.jpg');
+   background-size: cover;
+	height: 2px;
+	
+}
